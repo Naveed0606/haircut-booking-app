@@ -1,0 +1,9 @@
+services:
+  - type: web_service
+    name: haircut-booking
+    env: node
+    region: syd
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+
